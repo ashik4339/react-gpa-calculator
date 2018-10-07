@@ -1,14 +1,26 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.score {
+  padding: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.score h2 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.score p {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #f8f9fa;
+}
+
+.table td {
+  border: 1px solid #f8f9fa;
+}
+
+.subject-list i {
+  cursor: pointer;
 }
