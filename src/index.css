@@ -1,3 +1,9 @@
+.wrapper {
+  margin: 50px;
+}
+.wrapper h1 {
+  margin-bottom: 50px;
+}
 .score {
   padding: 30px;
 }
@@ -13,14 +19,29 @@
   font-weight: 400;
 }
 
-.table-striped tbody tr:nth-of-type(odd) {
+.wrapper .table-striped tbody tr:nth-of-type(odd) {
   background: #f8f9fa;
 }
 
-.table td {
+.wrapper .table td {
   border: 1px solid #f8f9fa;
 }
 
 .subject-list i {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .subject-list {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .score p {
+    font-size: 16px;
+  }
+  .score h2 {
+    font-size: 65px;
+  }
 }

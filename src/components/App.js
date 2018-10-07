@@ -41,7 +41,7 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="text-center m-5 text-uppercase">GPA Calculator</h1>
+              <h1 className="text-center text-uppercase">GPA Calculator</h1>
             </div>
             <div className="col-md-8">
               <div className="subject-list">
